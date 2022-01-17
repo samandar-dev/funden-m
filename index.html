@@ -7,11 +7,322 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
+  <!-- HEADER PART -->
+
+  <header class="header">
+    <div class="header__inner">
+      <div class="container">
+        <div class="header__item row middle ">
+          <div class="header__logo">
+            <img
+              src="https://gaviaspreview.com/wp/funden/wp-content/plugins/funden-themer/elementor/assets/images/logo.png"
+              alt="header__logo" width="175" height="38">
+          </div>
+          <div class="header__nav">
+            <nav class="site__nav">
+              <ul class="nav__menu row middle">
+                <li class="nav__list nav-ho-lis">
+                  <p class="nav__link row middle act-home" href="#">Home<i class='bx bx-chevron-down'></i></p>
+                  <ul class="home-menu">
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 1</a>
+                    </li>
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 2</a>
+                    </li>
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 3</a>
+                    </li>
+                    <li class="home-list ho-bb">
+                      <a class="home-lis-link" href="#">Home 4</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav__list nav-ho-exp">
+                  <p class="nav__link row middle" href="#">Explore<i class='bx bx-chevron-down'></i></p>
+                  <div class="exp-manu-box row between">
+                    <ul class="exp-manu lm">
+                      <li class="exp-tit-list">
+                        <h3 class="exp-title">User Dashboard</h3>
+                      </li>
+                      <li class="exp-list">
+                        <a class="exp-lis-link" href="#">Dashboard</a>
+                      </li>
+                      <li class="exp-list">
+                        <a class="exp-lis-link" href="#">Dashboard</a>
+                      </li>
+                      <li class="exp-list">
+                        <a class="exp-lis-link" href="#">Dashboard</a>
+                      </li>
+                      <li class="exp-list">
+                        <a class="exp-lis-link" href="#">Dashboard</a>
+                      </li>
+                    </ul>
+                    <ul class="exp-manu">
+                      <li class="exp-tit-list">
+                        <h3 class="exp-title">Projects Page</h3>
+                      </li>
+                      <li class="exp-list">
+                        <a class="exp-lis-link" href="#">Dashboard</a>
+                      </li>
+                      <li class="exp-list">
+                        <a class="exp-lis-link" href="#">Dashboard</a>
+                      </li>
+                      <li class="exp-list">
+                        <a class="exp-lis-link" href="#">Dashboard</a>
+                      </li>
+                      <li class="exp-list">
+                        <a class="exp-lis-link" href="#">Dashboard</a>
+                      </li>
+                    </ul>
+                    <ul class="exp-manu">
+                      <li class="exp-tit-list">
+                        <h3 class="exp-title">Crowdfunding Single</h3>
+                      </li>
+                      <li class="exp-list">
+                        <a class="exp-lis-link" href="#">Dashboard</a>
+                      </li>
+                      <li class="exp-list">
+                        <a class="exp-lis-link" href="#">Dashboard</a>
+                      </li>
+                      <li class="exp-list">
+                        <a class="exp-lis-link" href="#">Dashboard</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="nav__list nav-ho-lis">
+                  <p class="nav__link row middle" href="#">Events<i class='bx bx-chevron-down'></i></p>
+                  <ul class="home-menu">
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 1</a>
+                    </li>
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 2</a>
+                    </li>
+                    <li class="home-list eve-ho-list">
+                      <a class="home-lis-link" href="#">Home 3</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav__list nav-ho-lis">
+                  <p class="nav__link row middle" href="#">News<i class='bx bx-chevron-down'></i></p>
+                  <ul class="home-menu">
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 1</a>
+                    </li>
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 2</a>
+                    </li>
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 3</a>
+                    </li>
+                    <li class="home-list ho-bb">
+                      <a class="home-lis-link" href="#">Home 4</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav__list nav-ho-lis">
+                  <p class="nav__link row middle" href="#">Pages<i class='bx bx-chevron-down'></i></p>
+                  <ul class="home-menu pag-menu">
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 1</a>
+                    </li>
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 2</a>
+                    </li>
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 3</a>
+                    </li>
+                    <li class="home-list pag-ho-list">
+                      <a class="home-lis-link" href="#">Home 4</a>
+                    </li>
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 1</a>
+                    </li>
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 2</a>
+                    </li>
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 3</a>
+                    </li>
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 4</a>
+                    </li>
+                    <li class="home-list">
+                      <a class="home-lis-link" href="#">Home 3</a>
+                    </li>
+                    <li class="home-list ho-bb">
+                      <a class="home-lis-link" href="#">Home 4</a>
+                    </li>
+                  </ul>
+                </li>
+
+                <li class="nav__list">
+                  <a class="nav__link" href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="header__icvon">
+            <button class="header__icon">
+              <i class='bx bx-search'></i>
+            </button>
+            <button class="header__icon">
+              <i class='bx bx-user-circle'></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="main__box">
+    <div class="main__inner">
+      <section class="hero__box">
+        <div class="container">
+          <div class="hero__item row ">
+            <div class="hero__title-box">
+              <h2 class="hero__title">We help surface innovatinos in Tech</h2>
+              <p class="hero__text">
+                Funden is changing thr way people and companies work
+              </p>
+              <div class="hero__btns row middle">
+                <a class="hero__link row middle between" href="#">Start A Project<i
+                    class='bx bx-chevron-right hero-bx-ch'></i></a>
+                <a class="hero__icon-span" href="#">
+                  <i class='bx bx-play'></i>
+                </a>
+              </div>
+            </div>
+            <div class="hero__ims">
+              <img class="img-pers" src="https://gaviaspreview.com/wp/funden/wp-content/uploads/2021/11/layer-2.png"
+                alt="person-img" width="640" height="650">
+              <img class="img-inf" src="https://gaviaspreview.com/wp/funden/wp-content/uploads/2021/11/layer-2-1.png"
+                alt="img" width="215" height="215">
+            </div>
+            <span class="krug row middle">
+              <span class="krug-min"></span>
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="ready__item row middle between">
+          <h2 class="ready__title">Ready to Raise Funds for Idea?</h2>
+          <a class="ready__link row middle" href="#">Read More<i class='bx bx-right-arrow-alt'></i></a>
+        </div>
+      </div>
+
+      <div class="categories">
+        <div class="container">
+          <div class="cate-item">
+            <div class="cate__title-btn row middle between">
+              <div class="cate-tit-title">
+                <span class="cate__tit">Category</span>
+                <span class="cate__titt">WHAT WE DO</span>
+                <h2 class="cate__title">Popular Categories</h2>
+              </div>
+              <div class="cate__btn-link">
+                <a class="cate-link row middle" href="#">Projects Explore<i class='bx bx-right-arrow-alt right'></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="cate__categories row middle between">
+            <div class="btn__boxx row middle between">
+              <div class="btn__icon">
+                <i class='bx bx-bar-chart-alt-2'></i>
+              </div>
+              <div class="btn__titles">
+                <h3 class="btn__title">Education</h3>
+                <p class="btn__text">School, Collage & University</p>
+              </div>
+            </div>
+            <div class="btn__box row middle between">
+              <div class="btn__icon">
+                <i class='bx bx-bar-chart-alt-2'></i>
+              </div>
+              <div class="btn__titles">
+                <h3 class="btn__title">Education</h3>
+                <p class="btn__text">School, Collage & University</p>
+              </div>
+            </div>
+            <div class="btn__box row middle between">
+              <div class="btn__icon">
+                <i class='bx bx-bar-chart-alt-2'></i>
+              </div>
+              <div class="btn__titles">
+                <h3 class="btn__title">Education</h3>
+                <p class="btn__text">School, Collage & University</p>
+              </div>
+            </div>
+            <div class="btn__box row middle between">
+              <div class="btn__icon">
+                <i class='bx bx-bar-chart-alt-2'></i>
+              </div>
+              <div class="btn__titles">
+                <h3 class="btn__title">Education</h3>
+                <p class="btn__text">School, Collage & University</p>
+              </div>
+            </div>
+            <div class="btn__box row middle between">
+              <div class="btn__icon">
+                <i class='bx bx-bar-chart-alt-2'></i>
+              </div>
+              <div class="btn__titles">
+                <h3 class="btn__title">Education</h3>
+                <p class="btn__text">School, Collage & University</p>
+              </div>
+            </div>
+            <div class="btn__box row middle between">
+              <div class="btn__icon">
+                <i class='bx bx-bar-chart-alt-2'></i>
+              </div>
+              <div class="btn__titles">
+                <h3 class="btn__title">Education</h3>
+                <p class="btn__text">School, Collage & University</p>
+              </div>
+            </div>
+
+
+
+
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+
+
+    </div>
+  </main>
+
+
+
+
+
+
 
   <script src="js/main.js"></script>
 </body>
