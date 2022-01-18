@@ -339,7 +339,7 @@ body {
 
 .img-inf {
   position: absolute;
-  top: 60%;
+  top: 550px;
   left: 70%;
   z-index: 10;
   animation: img-inf 250s infinite;
